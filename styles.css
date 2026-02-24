@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+body{
+	padding:0px;
+	margin:0px;
+	box-shadow:border-box;
+	
+}
+#login_form{
+
+	/* border:2px solid gray; */
+	margin:200px;
+	
+}
+
+#existing{
+	width:200px;
+	text-align:center;
+}
