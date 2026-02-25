@@ -6,29 +6,38 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <h1>Login Form</h1>	
+<bod    <h1>Login Form</h1>
 
- <from id ="login_form">
-     <lavel for="username">Username</lavel>
-	 <input type="text" id="username" placeholder="Username">
-	 <br><br>
-	 <lavel for="password">password</lavel>
-	 <input type="text" id="password" placeholder="Password">
-	 <br><br>
-	 <lavel for="checkbox">Remember me.</lavel>
-	 <input type="checkbox" id="username" >
-	 <br><br>
-	 <lavel for="submit">Submi</lavel>
-	 <input type="submit" id="submit" value="Submit">
-	 
-	 <br><br>
-	 
+    <form id="loginForm">
+        <input 
+            type="text" 
+            placeholder="Username" 
+            id="username" 
+        />
+        <br /><br />
 
-	 
- </from>
+        <input 
+            type="password" 
+            placeholder="Password" 
+            id="password" 
+        />
+        <br /><br />
 
-<button id="existing">Login as existing user</button>
+        <input 
+            type="checkbox" 
+            id="checkbox" 
+        />
+        <label for="checkbox">Remember me.</label>
+        <br /><br />
+
+        <input 
+            type="submit" 
+            id="submit" 
+            value="Submit" 
+        />
+    </form>
+
+    <button id="existing">Login as existing user</button>
 	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
