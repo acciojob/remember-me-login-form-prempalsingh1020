@@ -2,17 +2,48 @@
 body{
 	padding:0px;
 	margin:0px;
-	box-shadow:border-box;
+    /* box-sizing:border-box; */
+	background-color:pink;
+	/* display:flex; */
+	
+	
 	
 }
-#login_form{
+.loginForm{
 
-	/* border:2px solid gray; */
-	/* margin:200px; */
+	border:2px solid gray;
+	height:40%;
+	width:40%;
+	/* display:flex; */
+	margin-left:300px;
+	margin-top:20px
+	
 	
 }
 
 #existing{
 	width:200px;
 	text-align:center;
+	margin-left:360px;
+	margin-top:40px;
 }
+h1{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
